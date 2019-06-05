@@ -1,0 +1,3 @@
+In Python you can import code, like classes and functions, from a module. 
+In Python you can keep a dictionary sorted by importing and using OrderedDict(). 
+In Python you can read code from .txt files and loop through each line. 
