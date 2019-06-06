@@ -90,7 +90,7 @@ print(str(locations) + ' Permanently Reverse Sort')
 print('\nExamining the length of the list of dinner guests, I am inviting ' + str(len(guests)) + ' guests.')
 print("Examining the length of the list of locations, I have " + str(len(locations)) + " locations")
 
-# 3-10: Practice chapter.
+# 3-10.
 # Titled, upper, and lower.
 Maps = ['castlwars', 'Rooftops', 'ORBITZ', 'sp00nage', 'melon fields']
 print('\nI have a list of Sassilization maps: ' + str(Maps))

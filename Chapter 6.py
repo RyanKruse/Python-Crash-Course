@@ -2,21 +2,45 @@
 # Keys, values, items, add, delete, bold, sets
 # if list A in dict B, list of dicts, list in dicts, dict of dicts
 
-# 6-1, 6-2, 6-3: At page bottom.
+# 6-1.
+person = {'first_name': 'jeff', 'last_name': 'bezos', 'age': '54', 'city': 'seattle'}
+print('First name is ' + str(person['first_name'].title()) + '.')
+print('Last name is ' + str(person['last_name'].title()) + '.')
+print('Age is ' + str(person['age']) + '.')
+print('City of residency is ' + str(person['city'].title()) + '.')
 
-# 6-4: Keys, values, and items.
-# 6-1 Updated
+# 6-2.
+names = ['chris', 'john', 'ryan', 'kaitlyn', 'austen']
+favorites = {'chris': 40, 'john': 25, 'ryan': 15, 'kaitlyn': 42, 'austen': 64}
+print("\nI have a list of people. Here are their favorite numbers!")
+for name in names:
+    print('\t' + name.title() + "'s favorite number is " + str(favorites[name]) + '.')
+
+# 6-3.
+words = ['list', 'tuple', 'for-loop', 'if-statement', 'print']
+definitions = {
+    'list': 'A list is basically an array.',
+    'tuple': 'A tuple is basically a fixed array.',
+    'for-loop': 'A for-loop will loop based on the number of indexes or range.',
+    'if-statement': 'An if-statement checks if something is True or False.',
+    'print': 'A print statement will print text into the console.'
+}
+print('\nHere are 5 programming definitions I wrote!')
+for index, word in enumerate(words, start=1):
+    print('\t' + str(index) + ') ' + word.title() + ': ' + definitions[str(word)])
+
+# 6-1 Transformed to Dictionary.
 person = {'first_name': 'jeff', 'last_name': 'bezos', 'age': '54', 'city': 'seattle'}
 for key, value in person.items():
     print(key.title() + ': ' + value.title() + '.')
 
-# 6-2 Updated
+# 6-2 Transformed to Dictionary.
 favorites = {'chris': 40, 'john': 25, 'ryan': 15, 'kaitlyn': 42, 'austen': 64}
 print("\nHere are these people's favorite numbers!")
 for key, value in favorites.items():
     print('\t' + key.title() + "'s favorite number is " + str(value) + ".")
 
-# 6-3 Updated
+# 6-3 Transformed to Dictionary.
 definitions = {
     'list': 'Basically an array. Can add, change, and remove elements.',
     'tuple': 'Basically a fixed array. Cannot add, change, or remove elements.',
@@ -150,31 +174,4 @@ for city, city_info in cities.items():
     print(city.title() + ' is in ' + city_info['country'].title() + ' with a population of ' +
           str(city_info['population']) + '. ' + city_info['fact'])
 
-# 6-12: I did this with # 6-8.
-
-# 6-1.
-person = {'first_name': 'jeff', 'last_name': 'bezos', 'age': '54', 'city': 'seattle'}
-print('First name is ' + str(person['first_name'].title()) + '.')
-print('Last name is ' + str(person['last_name'].title()) + '.')
-print('Age is ' + str(person['age']) + '.')
-print('City of residency is ' + str(person['city'].title()) + '.')
-
-# 6-2.
-names = ['chris', 'john', 'ryan', 'kaitlyn', 'austen']
-favorites = {'chris': 40, 'john': 25, 'ryan': 15, 'kaitlyn': 42, 'austen': 64}
-print("\nI have a list of people. Here are their favorite numbers!")
-for name in names:
-    print('\t' + name.title() + "'s favorite number is " + str(favorites[name]) + '.')
-
-# 6-3.
-words = ['list', 'tuple', 'for-loop', 'if-statement', 'print']
-definitions = {
-    'list': 'A list is basically an array.',
-    'tuple': 'A tuple is basically a fixed array.',
-    'for-loop': 'A for-loop will loop based on the number of indexes or range.',
-    'if-statement': 'An if-statement checks if something is True or False.',
-    'print': 'A print statement will print text into the console.'
-}
-print('\nHere are 5 programming definitions I wrote!')
-for index, word in enumerate(words, start=1):
-    print('\t' + str(index) + ') ' + word.title() + ': ' + definitions[str(word)])
+# 6-12: Already completed with # 6-8.

@@ -23,7 +23,7 @@ for value in hundred:
     print(value)
 
 # List comprehension.
-# hundred = [print(value) for value in range(1, 101)]
+ten = [print(value) for value in range(1, 11)]
 
 # 4-5: Min, max, and sum.
 print('\n' + str(min(hundred)) + ' is the smallest number in the array.')

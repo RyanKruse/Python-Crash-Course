@@ -2,7 +2,8 @@
 # logic (==, !=), and, or, in, is, is True, is False, not, if, else, elif,
 # multiple ifs, if list, if empty list, if list A in list B,
 
-# 5-1: ==
+# 5-1.
+# ==
 car = 'subaru'
 print("Is car == 'subaru'? I predict True.")
 print(car.lower() == 'subaru')
@@ -136,10 +137,3 @@ for number in numbers:
         print('\t' + str(number) + 'th')
 
 # 5-12: Review styling.
-
-# 5-13:
-# So some ideas about different problems I would like to explore as a programmer would be the following:
-# Create a tic tac toe game where the player is playing on a time limit against an AI.
-# Create a tic tac toe game where the pieces are invisible.
-# No web development, not interested unless its to display an AI game where others can play it.
-# Might be interesting to see if AI has any use in data. I like working in data.

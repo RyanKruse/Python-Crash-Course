@@ -44,7 +44,6 @@ print('My favorite number is ' + str(favorite_number))
 
 # 2-10: Comments.
 # This is a comment
-# There is no goal, nothing has to be so serious.
 
 # 2-11: Python bible.
 import this
