@@ -102,12 +102,10 @@ class Bullet(Sprite):
 
 class GameStats:
     """Track statistics for Alien Invasion."""
-
     def __init__(self, settings):
         """Initialize statistics."""
         self.settings = settings
         self.reset_stats()
-
         # Start Alien Invasion in an active state.
         self.game_active = True
 
@@ -118,7 +116,6 @@ class GameStats:
 
 class Settings:
     """A class to store all settings for Alien Invasion."""
-
     def __init__(self):
         """Initialize the game's settings."""
         # Screen
@@ -126,7 +123,6 @@ class Settings:
         self.screen_height = 800
         self.bg_color = (230, 230, 230)
         self.game_title = 'Alien Invasion'
-
         # Ship
         self.ship_speed_factor = 3.5
         self.ship_limit = 30
@@ -152,7 +148,6 @@ def run_game():
     ship = Ship(settings, screen)
     bullets = Group()
     aliens = Group()
-
     # Create the first fleet of aliens
     create_fleet(settings, screen, ship, aliens)
     while True:
@@ -198,7 +193,6 @@ def check_keyup_events(event, ship):
 
 def update_screen(settings, screen, ship, alien, bullets):
     """Update images on the screen and flip to the new screen."""
-
     # Redraw the screen (AKA frame tick)
     screen.fill(settings.bg_color)
     # Redraw all bullets behind ship and aliens.
@@ -218,7 +212,6 @@ def update_bullets(settings, screen, ship, aliens, bullets):
     for bullet in bullets.copy():
         if bullet.rect.bottom <= 0:
             bullets.remove(bullet)
-
     check_bullet_alien_collisions(settings, screen, ship, aliens, bullets)
 
 
