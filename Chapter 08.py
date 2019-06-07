@@ -1,6 +1,6 @@
 # This chapter focuses on functions. The practice questions are attached to each function.
-from import_functions import make_car as mc  # Uses an alias to prevent overlapping with same function names
-import import_functions as pf  # Imports the entire module under an alias
+from imports import make_car as mc  # Uses an alias to prevent overlapping with same function names
+import imports as pf  # Imports the entire module under an alias
 
 
 def display_message():  # 8-1

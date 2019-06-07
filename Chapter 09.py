@@ -1,6 +1,6 @@
 # This chapter focuses on classes. The problem number is attached to each class/function.
-from import_classes import Restaurant as Restaurant_Import  # 9-10: Import and use a class.
-from import_classes import Admin as Admin_Import
+from imports import Restaurant as Restaurant_Import  # 9-10: Import and use a class.
+from imports import Admin as Admin_Import
 from collections import OrderedDict
 from random import randint
 

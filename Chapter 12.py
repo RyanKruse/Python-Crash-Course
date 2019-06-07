@@ -1,3 +1,4 @@
+# This chapter focuses on developing project code in PyGame. Utilizes fundamentals learned from all prior chapters.
 import sys
 import pygame
 from pygame.sprite import Group
