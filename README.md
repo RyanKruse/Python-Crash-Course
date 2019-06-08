@@ -1,18 +1,13 @@
 # Python Crash Course
 In this repository, I solve all the problems that appear in [Python Crash Course](https://pythonbooks.org/python-crash-course-a-hands-on-project-based-introduction-to-programming/) by Eric Matthes.
-This was a personal goal of mine to teach myself how to program in Python in fall 2017 after teaching myself VBA and macros in Excel.
+Each chapter.py file will contain the solutions for that particular chapter.
+The problems corresponding to each solution is commented next to each block of code.
+To run this program simply pull it from github and ensure that Python 3.6 is set as the project interpreter.
 
-After solving all the problems in the textbook over several weeks, I eventually would apply the skills I learn in this book
-to program another personal project called Python RTS.
-I am very thankful of the knowledge I learned from this book as it is the cornerstone to the good programming practices I still use
-to this day.
+This was a personal goal of mine to teach myself how to program in Python after teaching myself VBA and macros in Excel.
+I am thankful of the knowledge I learned from this book as it is the cornerstone to the good programming practices I use today.
 
 ## Book Cover
 <p align="center">
 	<img src="text_files/Logo.jpg"></img>
-</p>
-
-## Alien Invaders (Chapter 12)
-<p align="center">
-	<img src="text_files/Chapter_12.JPG"></img>
 </p>
